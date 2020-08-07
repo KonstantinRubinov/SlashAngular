@@ -1,0 +1,1 @@
+This is animated messages ticker in angular 9

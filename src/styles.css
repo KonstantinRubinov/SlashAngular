@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    direction: rtl;
+    margin: auto;
+    width: 500px;
+    background-color: #000000;
+}
+
+@font-face{
+  font-family: FbAdrenalinLight;
+    src: url('assets/fonts/FbAdrenalin-Light_0.otf');
+}
+
+@font-face{
+  font-family: FbAdrenalinRegular;
+    src: url('assets/fonts/FbAdrenalin-Regular_0.otf');
+}

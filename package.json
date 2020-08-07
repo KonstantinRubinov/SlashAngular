@@ -19,7 +19,11 @@
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
+    "ng2-redux": "^5.1.2",
+    "ngx-virtual-scroller": "^4.0.3",
+    "redux": "^4.0.5",
     "rxjs": "~6.5.4",
+    "rxjs-compat": "^6.6.2",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },

@@ -1,0 +1,58 @@
+
+.card{
+    /* padding: 10px; */
+    /* display: flex; */
+    clear:both;
+    background-image: url('../../../assets/post_bg.png');
+    background-repeat:no-repeat;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+img{
+    width:60px;
+    height: 60px;
+    float: right;
+    border: 1px solid red;
+    margin: 7px;
+}
+
+.left-person-name{
+    font-family: FbAdrenalinRegular;
+    padding: 0%;
+    margin: 0%;
+    width: 250px;
+    color: white;
+    /* float: left; */
+    /* background-color: green; */
+}
+
+.name-date{
+    width: 250px;
+    /* float: left; */
+    /* background-color: yellow; */
+}
+
+.left-person-date{
+    padding: 0%;
+    margin: 0%;
+    width: 250px;
+    color: red;
+    font-family: FbAdrenalinLight;
+    font-size: 13px;
+    padding-bottom: 5px;
+    /* float: left; */
+    /* background-color: red; */
+}
+
+
+p{
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 20px;
+    color: aliceblue;
+    font-family: FbAdrenalinLight;
+    font-size: 12px;
+    
+    /* float: left; */
+    /* background-color: blue; */
+}

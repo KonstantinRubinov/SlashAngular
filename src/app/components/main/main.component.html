@@ -1,0 +1,10 @@
+<virtual-scroller #scroll [items]="messagesToShow" 
+  (vsUpdate)="onVsUpdate($event)"
+  (vsChange)="onVsChange($event)"
+  (vsStart)="onVsStart($event)"
+  (vsEnd)="onVsEnd($event)"
+>
+    <div *ngFor="let item of scroll.viewPortItems.reverse()" class="fade">
+        <app-message [message]="item"></app-message>
+    </div>
+</virtual-scroller>
