@@ -4,7 +4,8 @@
   (vsStart)="onVsStart($event)"
   (vsEnd)="onVsEnd($event)"
 >
-    <div *ngFor="let item of scroll.viewPortItems.reverse()" class="fade">
-        <app-message [message]="item"></app-message>
+
+    <div *ngFor="let item of scroll.viewPortItems.reverse(); let first = first" [ngClass]="{'fade': first}">>
+      <app-message [message]="item"></app-message>
     </div>
 </virtual-scroller>
